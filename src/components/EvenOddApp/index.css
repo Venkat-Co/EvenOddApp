@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main {
+  padding: 20px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  background-size: cover;
+  text-align: center;
+  border-radius: 20px;
+  width: 500px;
+}
+.heading {
+  color: #0f172a;
+  font-size: 38px;
+  font-weight: 800;
+}
+.desc {
+  color: #334155;
+  font-size: 28px;
+}
+.btn {
+  color: #0f172a;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  height: 39px;
+  width: 100px;
+  background-color: #ffffff;
+}
+.note {
+  color: #334155;
+  font-size: 18px;
+}
